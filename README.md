@@ -1,9 +1,11 @@
-# Steph to run the module 
+# Step to run the module 
 
 * Create a directory called "murli" and unzip the zip file you sent me into this directory 
-
      ```unzip [PATH TO ZIP FILE] -d ./murli``` 
+
 * Create a .env file and define the variable ```MISTRAL_API_KEY``` inside it.
+
+* Create and activate a virtual environment for python using either ```virtualenv [NAME]``` or ```python -m venv [NAME]``` 
 
 * Time to install the dependencies via ```pip install -r requirements.txt```
 
